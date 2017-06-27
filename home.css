@@ -1,0 +1,293 @@
+body {
+    text-align: center;
+    color: #000;
+    font-family: "Comic Sans MS", sans-serif, cursive;
+    background-color: #fff;
+}
+
+ul{
+    list-style: none; 
+    text-align: left; 
+    margin:0px;
+}
+
+header 
+{
+    height:400px;
+    background:url(invite.jpg);
+    padding-bottom: 25px;
+    border-bottom: 1px solid #a9a9a9;
+    background-size: cover; 
+}
+
+ul.right{
+    text-align:left;
+}
+
+li{
+  list-style: none; 
+  text-align: right; 
+}
+
+p.info{
+    text-align: center;
+    border-top: 1px solid #A4CFF4;
+    border-bottom: 1px solid #A4CFF4;
+    font-size:13px;
+    padding-top:5px;
+}
+
+
+p.title{
+    text-align:center;
+    font-size:15px;
+    border-top: 1px solid #00a7de; 
+    padding-top: 8px; 
+    color: #acb3c2;
+}
+
+div.right{
+    border-left: 1px solid #00a7de;
+    border-right: 1px solid #00a7de;
+    margin-top:70px;
+}
+
+
+p{
+    font-size:20px;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+}
+
+
+p.information, p.message{
+    font-size:15px;
+    text-align: left; 
+    padding:7px;
+}
+
+
+h1 {
+    position: relative;
+    height: auto;
+    margin-top:10px;
+    font-size: 50px;
+    letter-spacing: 4px; 
+}
+
+aside{
+    float:right;
+    height: 900px; 
+    width:150px;
+    margin-top: 80px;
+    margin-left: -70px;
+    margin-right: 50px;
+    padding-right:15px;
+    padding-left: 0px;
+    text-align: left;
+}
+
+.list{
+    margin-top:20px;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-bottom: 50px; 
+    border-radius: 2px; 
+    border: 1px solid #A4CFF4;
+}
+
+.display{
+    font-size:40px;
+    padding: 0px;
+    margin:0px;
+    color:black;
+}
+
+.user{
+    margin-top:30px;
+    margin-right: 40px;
+    text-align:right;
+}
+
+.invitation{
+    position: relative;
+    width: 660px;
+    margin: 15px auto 0 auto;
+    text-align: center;
+
+}
+
+.invite, .inivation, .invitation_home{
+    width: 800px; 
+    margin-bottom: 30px; 
+}
+
+input{
+    height: 20px;
+    margin-top: 5px;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+
+input[type=text] {
+    width: 40%;
+    height:30px;
+    margin: 10px; 
+    padding-left: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    font-size:18px;
+    border-radius:4px;
+    box-sizing: border-box;
+    color: #636c72;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+}
+
+label{
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+}
+
+input[type=button]{
+    cursor: pointer;  
+    width:120px;
+    height: 30px;
+    margin:20px 20px 5px 20px;
+    background-color: #A4CFF4;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    border:none;
+}
+
+.welcome{
+    color:#58ACFF;
+}
+
+.show_week, .no_day, .show_day, .today{
+    width:100px;
+    height: 100px;
+    text-align:center;
+    border: 4px double #A4CFF4;
+    display:inline-block;
+    margin:0px;
+    vertical-align: bottom;
+    background-color: white; 
+}
+
+.show_week{
+    height: 40px; 
+    font-size:20px;
+    color:#fff;
+    background-color: #75B7EF; 
+    border:4px double white;
+    padding-top:10px;
+}
+
+.today{
+    color:#fff;
+    background-color:#A4CFF4;    
+    width: 100px; 
+    height: 100px; 
+}
+
+.change_date, .choose_month{
+    width:100px;
+    height: 75px;
+    text-align:center;
+    border: 4px double #A4CFF4;
+    display:inline-block;
+    vertical-align: bottom;
+    background-color: white; 
+}
+
+.change_month{
+    padding: auto; 
+    font-size:40px;
+    font-weight: 1000; 
+    cursor: pointer;
+    text-decoration: none;
+    color:#A4CFF4;
+}
+
+.choose_month{
+    width:316px;
+}
+
+.date{
+    background-color: #A4CFF4;
+    color:white;
+    height: 30%;
+    margin:0;
+
+}
+
+.display{
+    font-size:40px;
+    padding: auto;
+    margin:0px;
+    color:#75B7EF;
+
+}
+
+.date_today{
+    background-color: white;
+    color:#A4CFF4;
+    height: 30%;
+    margin:0;
+}
+
+.display_today{
+    background-color: #A4CFF4;
+    color:white;
+    margin:0;
+    font-size:40px;
+    padding-top: 10px; 
+    border:2px double white;
+}
+
+
+
+select {
+   background: transparent;
+   border: 1px solid silver;
+   font-size: 14px;
+   height: 35px;
+   padding: 5px; 
+   width: 80px;
+   margin:15px;
+}
+
+.choose_type{
+    display: inline-block;
+}
+
+input[type=submit]{
+    cursor:pointer;
+    margin:10px 20px 10px 20px;
+    padding: 5px; 
+    height:50px;
+    width: 100px;
+    border:1px solid white;
+    border-radius: 5px; 
+    background-color: #75B7EF;
+
+}
+
+.topcorner{
+   position:absolute;
+   top:30px;
+   left:30px;
+   font-size: 20px;
+}
+
+.logout{
+    text-decoration: none; 
+    color:black;
+    width: 270px; 
+    margin-right: 10px;
+    margin-left:10px; 
+}
+
+

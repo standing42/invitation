@@ -1,0 +1,68 @@
+body{
+    text-align: center; 
+}
+
+.container{
+    border: 1px dashed #FFC0CB;
+
+}
+
+.show_week, .no_day, .show_day, .today{
+    width:100px;
+    height: 100px;
+    text-align:center;
+    border: 1px double #FFC0CB;
+    display:inline-block;
+    margin:1px;
+    vertical-align: bottom;
+}
+
+.show_week{
+    height: 40px; 
+    font-size:20px;
+    color:#fff;
+    background-color: #fb7299; 
+    padding-top:10px;
+}
+
+.today{
+    color:#fff;
+    background-color:#f45d90;    
+    opacity: 0.6; 
+    width: 100px; 
+    height: 100px; 
+}
+
+.change_date, .choose_month{
+    width:100px;
+    height: 75px;
+    text-align:center;
+    border: 1px double #FFC0CB;
+    display:inline-block;
+    margin:1px;
+    vertical-align: bottom;
+}
+
+.choose_month{
+    width:308px;
+}
+
+select {
+   background: transparent;
+   border: 1px solid silver;
+   font-size: 14px;
+   height: 35px;
+   padding: 5px; 
+   width: 80px;
+   margin:15px;
+}
+
+select option:active, select option:hover{
+    outline-color:#e5739e;
+}
+
+
+
+a{
+    text-decoration: none; 
+}
