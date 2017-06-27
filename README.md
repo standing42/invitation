@@ -14,6 +14,11 @@ You can click on the days on calendar to view a list of invitations sent by the 
 
 ![alt text](https://github.com/standing42/standing42.github.io/blob/master/home.png)
 
+
+## Timezone
+Time zone is now set to be Pacific Time(UTC-08:00).
+
+
 ## Alert
 The website is still under construction, being updated constantly. More features will be available soon, such as accepting invitations sent from others and making arrangements.
 
